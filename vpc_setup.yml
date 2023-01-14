@@ -60,7 +60,6 @@
         az: "{{zone1}}"
         state: "{{state}}"
         cidr: "{{PrivSub1Cidr}}"
-        map_public: yes
         resource_tags:
           Name: First_privsub1
       register: privsub1_out
@@ -72,7 +71,6 @@
         az: "{{zone2}}"
         state: "{{state}}"
         cidr: "{{PrivSub2Cidr}}"
-        map_public: yes
         resource_tags:
           Name: First_privsub2
       register: privsub2_out
@@ -84,7 +82,6 @@
         az: "{{zone3}}"
         state: "{{state}}"
         cidr: "{{PrivSub3Cidr}}"
-        map_public: yes
         resource_tags:
           Name: First_privsub3
       register: privsub3_out
